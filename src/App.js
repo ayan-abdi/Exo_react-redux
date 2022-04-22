@@ -4,8 +4,8 @@ import MainFooter from "./containers/main-footer/main-footer";
 import CounterDisplay from "./containers/counter-display/counter-display";
 import CounterInteraction from "./containers/counter-interaction/counter-interaction";
 import CounterResetGlobal from "./containers/counter-reset/counter-reset";
-import Formualaire from "./containers/formulaire/formulaire";
-
+import PeronForm from "./containers/person-form/person-form";
+import PersonList from "./containers/person-list/person-list";
 function App() {
   return (
     <div className="App">
@@ -16,7 +16,8 @@ function App() {
         <CounterInteraction step={5} />
         <CounterResetGlobal />
         <br></br>
-        <Formualaire />
+        <PeronForm />
+        <PersonList />
       </main>
       <MainFooter />
     </div>
